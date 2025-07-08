@@ -1,0 +1,39 @@
+{
+  "name": "original-fs",
+  "description": "Fake original-fs module to make Electron happy",
+  "author": {
+    "name": "Grigorii Lutkov",
+    "email": "friend.lga@gmail.com"
+  },
+  "version": "0.0.1",
+  "homepage": "https://trulab.ru/grigorii-lutkov/original-fs",
+  "repository": {
+    "type": "git",
+    "url": "https://trulab.ru/grigorii-lutkov/original-fs.git"
+  },
+  "bugs": {
+    "url": "https://trulab.ru/grigorii-lutkov/original-fs/-/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "main": "main/main.js",
+  "types": "main/main.d.ts",
+  "files": [
+    "main/",
+    "third_party_licenses/",
+    "LICENSE.md",
+    "README.md",
+    "Third-Party_Licenses.md"
+  ],
+  "devDependencies": {
+    "@types/node": "*",
+    "typescript": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "type": "module",
+  "packageManager": "yarn@4.9.2"
+}
