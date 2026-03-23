@@ -1,39 +1,47 @@
 {
-  "name": "original-fs",
-  "description": "Fake original-fs module to make Electron happy",
+  "name": "@unitex/original-fs",
+  "description": "Fake node fs module to make Electron happy",
   "author": {
     "name": "Grigorii Lutkov",
     "email": "friend.lga@gmail.com"
   },
   "version": "0.0.1",
-  "homepage": "https://trulab.ru/grigorii-lutkov/original-fs",
+  "homepage": "https://trulab.ru/unitex/original-fs",
   "repository": {
     "type": "git",
-    "url": "https://trulab.ru/grigorii-lutkov/original-fs.git"
+    "url": "https://trulab.ru/unitex/original-fs.git"
   },
   "bugs": {
-    "url": "https://trulab.ru/grigorii-lutkov/original-fs/-/issues"
+    "url": "https://trulab.ru/unitex/original-fs/-/issues"
   },
   "license": "MIT",
   "scripts": {
-    "build": "tsc --project tsconfig.json"
+    "build": "rm -rf dist/ && tsc --project tsconfig_build.json",
+    "format": "prettier --ignore-unknown --check",
+    "format_all": "yarn format ./",
+    "format_fix": "yarn format --write",
+    "format_fix_all": "yarn format_all --write"
   },
-  "main": "main/main.js",
-  "types": "main/main.d.ts",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
   "files": [
-    "main/",
+    "dist/",
     "third_party_licenses/",
+    "CONTRIBUTORS.md",
+    "COPYING.md",
+    "COPYRIGHT.md",
     "LICENSE.md",
     "README.md",
-    "Third-Party_Licenses.md"
+    "third_party_licenses.md"
   ],
   "devDependencies": {
     "@types/node": "*",
+    "prettier": "3.5.3",
     "typescript": "*"
   },
   "engines": {
     "node": "*"
   },
   "type": "module",
-  "packageManager": "yarn@4.9.2"
+  "packageManager": "yarn@4.12.0"
 }

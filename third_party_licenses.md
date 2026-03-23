@@ -1,5 +1,14 @@
 # Third-Party Licenses
 
+## Original FS Contributions
+
+- [Homepage](https://trulab.ru/unitex/original-fs)
+- [Repository](https://trulab.ru/unitex/original-fs)
+- License:
+  - Type: `MIT`
+  - [Original Link](https://trulab.ru/unitex/original-fs/-/blob/master/third_party_licenses/unitex_original_fs_contributions_license.md)
+  - [Local Copy](./third_party_licenses/unitex_original_fs_contributions_license.md)
+
 ## typescript
 
 - [Homepage](https://www.typescriptlang.org)
@@ -17,6 +26,15 @@
   - Type: `MIT`
   - [Original Link](https://github.com/nodejs/node/blob/main/LICENSE)
   - [Local Copy](./third_party_licenses/node.txt)
+
+## prettier
+
+- [Homepage](https://prettier.io)
+- [Repository](https://github.com/prettier/prettier)
+- License:
+  - Type: `MIT`
+  - [Original Link](https://github.com/prettier/prettier/blob/main/LICENSE)
+  - [Local Copy](./third_party_licenses/prettier.txt)
 
 ## DefinitelyTyped
 

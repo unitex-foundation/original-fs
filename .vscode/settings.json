@@ -1,0 +1,51 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": true,
+  "editor.indentSize": "tabSize",
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80],
+  "editor.tabSize": 2,
+  "explorer.excludeGitIgnore": false,
+  "files.associations": {
+    "tsconfig.json": "jsonc",
+    "tsconfig_*.json": "jsonc"
+  },
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/Thumbs.db": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    ".git": true,
+    ".vscode": true,
+    ".yarn": true,
+    "dist": true,
+    "node_modules": true,
+    "temp": true,
+    "third_party_licenses": true
+  },
+  "js/ts.format.indentSwitchCase": true,
+  "js/ts.preferences.importModuleSpecifier": "non-relative",
+  "js/ts.preferences.quoteStyle": "single",
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
+  "js/ts.tsserver.node.path": "node",
+  "js/ts.tsserver.watchOptions": { "watchFile": "useFsEvents" },
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "prettier.singleQuote": true,
+  "search.exclude": {
+    ".git": true,
+    ".vscode": true,
+    ".yarn": true,
+    "dist": true,
+    "node_modules": true,
+    "temp": true,
+    "third_party_licenses": true
+  },
+  "search.useIgnoreFiles": true
+}

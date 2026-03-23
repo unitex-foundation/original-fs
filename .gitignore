@@ -1,6 +1,7 @@
-# Copyright (c) 2025 Grigorii Lutkov <friend.lga@gmail.com>
-# Copyright (c) fluent-compiler contributors
-# Licensed under the MIT License
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Grigorii Lutkov <friend.lga@gmail.com>
+# Copyright (c) Original FS Contributors
+# See README.md, COPYING.md, CONTRIBUTING.md and CONTRIBUTORS.md for details
 
 # Common
 .DS_Store
@@ -10,7 +11,14 @@
 node_modules
 
 # Yarn
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
 /.yarn
+
+# Build
+/dist/**/*.map
+
+# Temp
+/temp
 
 # Log files
 /logs
@@ -20,7 +28,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Editor directories and files
-/.vscode
 /.idea
 /*.suo
 /*.ntvs*
