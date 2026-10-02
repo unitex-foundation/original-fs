@@ -3,24 +3,24 @@
   "description": "Fake node fs module to make Electron happy",
   "author": {
     "name": "Grigorii Lutkov",
-    "email": "friend.lga@gmail.com"
+    "email": "grigorii@lutkov.dev"
   },
-  "version": "0.0.1",
+  "version": "1.0.0",
   "homepage": "https://trulab.ru/unitex/original-fs",
   "repository": {
     "type": "git",
-    "url": "https://trulab.ru/unitex/original-fs.git"
+    "url": "git+https://trulab.ru/unitex/original-fs.git"
   },
   "bugs": {
     "url": "https://trulab.ru/unitex/original-fs/-/issues"
   },
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf dist/ && tsc --project tsconfig_build.json",
+    "build": "rm -rf dist/ && tsc",
     "format": "prettier --ignore-unknown --check",
-    "format_all": "yarn format ./",
-    "format_fix": "yarn format --write",
-    "format_fix_all": "yarn format_all --write"
+    "format_all": "npm run-script format ./",
+    "format_fix": "npm run-script format --write",
+    "format_fix_all": "npm run-script format_all --write"
   },
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
@@ -35,13 +35,29 @@
     "third_party_licenses.md"
   ],
   "devDependencies": {
-    "@types/node": "*",
-    "prettier": "3.5.3",
-    "typescript": "*"
+    "@types/node": "8.0.0",
+    "prettier": "3.9.9",
+    "typescript": "6.0.3"
   },
-  "engines": {
-    "node": "*"
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "v26.0.0",
+      "onFail": "warn"
+    },
+    "packageManager": {
+      "name": "npm",
+      "version": "11.12.1",
+      "onFail": "warn"
+    }
   },
   "type": "module",
-  "packageManager": "yarn@4.12.0"
+  "keywords": [
+    "fs",
+    "original",
+    "electron",
+    "fake",
+    "renamed",
+    "backend"
+  ]
 }
