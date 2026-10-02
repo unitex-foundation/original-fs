@@ -39,3 +39,38 @@ import originalFS from 'original-fs';
 # Copying
 
 [Read Here](./COPYING.md)
+
+## Repos / Mirrors
+
+- [TRULAB](https://trulab.ru/unitex/original-fs)
+- [GitHub](https://github.com/unitex-foundation/original-fs)
+- [GitLab](https://gitlab.com/unitex-foundation/original-fs)
+- [Gitea](https://gitea.com/unitex/original-fs)
+
+<!----------------------------------------------------------------------------->
+
+<!-- <style>
+p:has(+ ul),
+p:has(+ ol) {
+  margin-bottom: 0;
+}
+p + ul,
+p + ol {
+  margin-top: 0;
+}
+ul,
+ol {
+  list-style-position: inside;
+}
+ul:not(ul ul):not(ol ul),
+ol:not(ol ol):not(ul ol) {
+  padding-left: 0;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+</style> -->
