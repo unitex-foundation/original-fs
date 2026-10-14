@@ -1,11 +1,12 @@
 {
   "name": "@unitex/original-fs",
+  "productName": "UNITEX Original FS",
   "description": "Fake node fs module to make Electron happy",
   "author": {
     "name": "Grigorii Lutkov",
     "email": "grigorii@lutkov.dev"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://trulab.ru/unitex/original-fs",
   "repository": {
     "type": "git",
@@ -53,6 +54,7 @@
   },
   "type": "module",
   "keywords": [
+    "unitex",
     "fs",
     "original",
     "electron",

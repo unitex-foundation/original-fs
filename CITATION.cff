@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using these metadata.
+type: software
+title: UNITEX Original FS
+abstract: Fake node fs module to make Electron happy
+authors:
+  - given-names: Grigorii
+    family-names: Lutkov
+    email: grigorii@lutkov.dev
+version: 1.0.3
+date-released: 2026-10-14
+license: MIT
+keywords:
+  - unitex
+  - fs
+  - original
+  - electron
+  - fake
+  - renamed
+  - backend
+url: https://trulab.ru/unitex/original-fs
+repository: https://trulab.ru/unitex/original-fs
+repository-code: https://trulab.ru/unitex/original-fs
+# repository-mirrors:
+#   - https://github.com/unitex-foundation/original-fs
+#   - https://gitlab.com/unitex-foundation/original-fs
+#   - https://gitea.com/unitex/original-fs
